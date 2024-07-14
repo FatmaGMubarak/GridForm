@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Form</title>
+    <link rel="stylesheet" href="./gridForm.css">
+</head>
+<body>
+
+    <div class="heading">
+        <h1>Wellness Center Membership Regusteration Form</h1>
+    </div>
+    <div class="cont">
+        <form id="myForm" action="" method="post">
+
+            <label for="fullName">Full Name</label>
+            <div class="name">
+            <input id ="fullName" type="text" placeholder="First"><input type="text" placeholder="Last">
+        </div>
+
+            <label for="bDate">Birth Date</label>
+            <input type="date" id="bDate">
+
+            <label for="mail">Email Address</label>
+            <input type="email" id="mail">
+
+            <label for="ins">Insurance</label>
+            <input type="text" id="ins">
+
+            <div class="terms">
+            <label for="terms">Terms of Service*</label>
+            <input type="checkbox" id="terms">I agree to the <span class="cterms">terms of service</span>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="./gridForm.js"></script>
+</body>
+</html>
